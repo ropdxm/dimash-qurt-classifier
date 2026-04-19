@@ -49,6 +49,11 @@ def get_learner() -> Any:
     return load_learner(MODEL_PATH, cpu=True)
 
 
+@app.get('/ping')
+def ping() -> dict[str, str]:
+    return {'status': 'ok'}
+
+
 @app.get('/health')
 def health() -> dict[str, Any]:
     try:
