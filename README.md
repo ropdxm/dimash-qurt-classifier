@@ -51,7 +51,10 @@ cp .env.local.example .env.local
 npm run dev
 ```
 
-The website will be available at `http://localhost:3000`.
+The website will be available at https://dimashorqurt.vercel.app/
+
+<img width="1530" height="995" alt="image" src="https://github.com/user-attachments/assets/ec387a57-df85-4138-b0cb-c1feb96efba0" />
+
 
 ## Notes
 
