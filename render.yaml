@@ -13,6 +13,6 @@ services:
       - key: MODEL_PATH
         value: models/dimash_qurt_classifier2.pkl
       - key: CORS_ORIGINS
-        value: http://localhost:3000,http://127.0.0.1:3000
+        value: http://localhost:3000,http://127.0.0.1:3000,https://dimashorqurt.vercel.app
       - key: CONFIDENCE_THRESHOLD
         value: "0"

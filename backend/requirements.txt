@@ -2,5 +2,6 @@ fastapi==0.115.12
 uvicorn[standard]==0.34.0
 python-dotenv==1.0.1
 python-multipart==0.0.20
-fastai==2.7.19
+fastai==2.8.7
+fasttransform==0.0.2
 Pillow==11.1.0
